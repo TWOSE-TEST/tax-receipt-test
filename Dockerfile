@@ -8,7 +8,7 @@ RUN apt-get install -y python3.10
 RUN apt-get install -y python3-pip
 RUN apt-get install -y python3.10-distutils
 RUN apt-get install -y wkhtmltopdf
-WORKDIR /tax-receipts/
+WORKDIR /tax-receipt-test/
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
